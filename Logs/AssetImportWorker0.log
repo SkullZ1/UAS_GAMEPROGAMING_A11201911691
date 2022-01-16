@@ -1,0 +1,941 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 14393.2214; Version 1607; 64bit' Language: 'en' Physical Memory: 12187 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/GameUTS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53209
+Successfully changed project path to: D:/unity/GameUTS
+D:/unity/GameUTS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 123.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/GameUTS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 930M (ID=0x1346)
+    Vendor:   
+    VRAM:     2020 MB
+    Driver:   23.21.13.8857
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001644 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 207.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4127ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1353ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (708ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (207ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 243.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3297ms)
+		BeginReloadAssembly (629ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2540ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (618ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (197ms)
+			SetupLoadedEditorAssemblies (1074ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (244ms)
+				BeforeProcessingInitializeOnLoad (231ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2589 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 20.038848 ms (FindLiveObjects: 0.600426 ms CreateObjectMapping: 0.439800 ms MarkObjects: 18.785650 ms  DeleteObjects: 0.208866 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim
+  artifactKey: Guid(3688e492878501d4882fffca4cb3bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim using Guid(3688e492878501d4882fffca4cb3bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d557991f54582f431c520ae8cac9b59') in 0.091602 seconds 
+  Import took 0.103628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim
+  artifactKey: Guid(0bafac48b1090284da2048c29bc986ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim using Guid(0bafac48b1090284da2048c29bc986ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7554afe06a517b4306bdfe0f590148') in 0.009945 seconds 
+  Import took 0.034080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+  artifactKey: Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab using Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4055842ee3c471ad410fe9f8506ec31') in 0.355970 seconds 
+  Import took 0.368143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10916ms)
+		BeginReloadAssembly (474ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (9190ms)
+			LoadAssemblies (579ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3787ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (246ms)
+			SetupLoadedEditorAssemblies (2731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (817ms)
+				ProcessInitializeOnLoadAttributes (1690ms)
+				ProcessInitializeOnLoadMethodAttributes (172ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (105ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.6 MB.
+System memory in use after: 108.9 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3004.
+Total: 135.588610 ms (FindLiveObjects: 1.198800 ms CreateObjectMapping: 0.683562 ms MarkObjects: 133.639534 ms  DeleteObjects: 0.063122 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 504.454685 seconds.
+  path: Assets/Knight Files/Body Parts/Body lower.png
+  artifactKey: Guid(76900228c746e3e408dd5948dafccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Body lower.png using Guid(76900228c746e3e408dd5948dafccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209fcbad5ba3a7c0daa81122f09b2622') in 0.115835 seconds 
+  Import took 0.126569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Knight Files/Body Parts/sword.png
+  artifactKey: Guid(722457268bcad2f4ebb4c3ee499643b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/sword.png using Guid(722457268bcad2f4ebb4c3ee499643b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dde16178919d02695c8aaae2fdca94') in 0.029871 seconds 
+  Import took 0.039200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Knight Files/Body Parts/body upper.png
+  artifactKey: Guid(131afc7c0c638d24f92ba75ccdab2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/body upper.png using Guid(131afc7c0c638d24f92ba75ccdab2b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a09391f7e86e04e29a13fea37b8eb4') in 0.032839 seconds 
+  Import took 0.041788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Knight Files/Body Parts/Legs.png
+  artifactKey: Guid(62ee3ccb82dad494e87e6f58795f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Legs.png using Guid(62ee3ccb82dad494e87e6f58795f2132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c572183f3a0fa4588e99eb9f5bbd1dc1') in 0.032073 seconds 
+  Import took 0.038534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Knight Files/Body Parts/Body lower.png
+  artifactKey: Guid(76900228c746e3e408dd5948dafccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Body lower.png using Guid(76900228c746e3e408dd5948dafccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209fcbad5ba3a7c0daa81122f09b2622') in 0.025945 seconds 
+  Import took 0.035273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Knight Files/Body Parts/Left Arm.png
+  artifactKey: Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Left Arm.png using Guid(79bfc252d4b629e42aae89f50be095af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfd4724c7aa08e2589af0224fa0dc60') in 0.027274 seconds 
+  Import took 0.036373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Knight Files/Body Parts/Head.png
+  artifactKey: Guid(e480585590b117443974744d58ee2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Head.png using Guid(e480585590b117443974744d58ee2162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1bfd059d38bb5c85795f44ed45eb0b') in 0.031643 seconds 
+  Import took 0.041878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Knight Files/Body Parts/Right Arm.png
+  artifactKey: Guid(034d324c158efbb49993409265a738d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Right Arm.png using Guid(034d324c158efbb49993409265a738d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d36ad104aab623e7a6bceffebec735a') in 0.022565 seconds 
+  Import took 0.032883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Knight Files/Body Parts/Legs 2.png
+  artifactKey: Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Body Parts/Legs 2.png using Guid(6292182f2b4ccd24bb2b316d0da5658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c64612d8418cb860c0bc764825734') in 0.024321 seconds 
+  Import took 0.033370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.567899 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_01.png
+  artifactKey: Guid(ba8204987081496419081ce78d6917db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_01.png using Guid(ba8204987081496419081ce78d6917db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d455130592d45d0d527b3b2e11336e') in 0.030480 seconds 
+  Import took 0.045082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_03.png
+  artifactKey: Guid(b5396be67fea11741b097c1481fb5352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_03.png using Guid(b5396be67fea11741b097c1481fb5352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab2825922d48328c3660f4b20f87ecc') in 0.028887 seconds 
+  Import took 0.040447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_02.png
+  artifactKey: Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_02.png using Guid(8bd3f967242f3e242a60feeb90c7b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7009abbeb9c8d543dcf8bb36d9eada3') in 0.031346 seconds 
+  Import took 0.038702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_04.png
+  artifactKey: Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_04.png using Guid(296ac19e2147e67408eed4611d3f93f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b7c9bef05cecf035c294ebdc81762a') in 0.042972 seconds 
+  Import took 0.051672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_05.png
+  artifactKey: Guid(82e10937dee60ac49aab93107e008888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_05.png using Guid(82e10937dee60ac49aab93107e008888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b560885b6c4cdb7e95a2a5b0cac4cfb0') in 0.035487 seconds 
+  Import took 0.049004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/fireball_03.png
+  artifactKey: Guid(f2700661ee7c30b4aa6e91848f4d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/fireball_03.png using Guid(f2700661ee7c30b4aa6e91848f4d4a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599af76b563a9d338da51b1b2ceb678a') in 0.031506 seconds 
+  Import took 0.039647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_03.png
+  artifactKey: Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_03.png using Guid(75a3e049c8703dd4c8c520102a77bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1bfe7ecbe327dd89fc5482056ce02d') in 0.027829 seconds 
+  Import took 0.036773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/fireball_01.png
+  artifactKey: Guid(2c961366528f28c458c619797d0bbb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/fireball_01.png using Guid(2c961366528f28c458c619797d0bbb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc34466c31e6be69526e9ec5ea74d0') in 0.023327 seconds 
+  Import took 0.033198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_06.png
+  artifactKey: Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_06.png using Guid(4cb7b9b52e6ff634d996fa09d0a74305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c471bb13a598b9429ba2f7133a7c4757') in 0.025868 seconds 
+  Import took 0.032869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_05.png
+  artifactKey: Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_05.png using Guid(8cb1161cd4b52534ba2ec2922764d061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859cc5ae644ac0a114fbaeb66e1e2638') in 0.027364 seconds 
+  Import took 0.036181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_06.png
+  artifactKey: Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_06.png using Guid(5570ce90349bcee48ad72f984407eb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae7657f8a603808b7f47a1f3fd8c69a') in 0.028180 seconds 
+  Import took 0.038808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_04.png
+  artifactKey: Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_04.png using Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27a0a2c0799261f557a25099506cf9c') in 0.023068 seconds 
+  Import took 0.032920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_02.png
+  artifactKey: Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_02.png using Guid(a8a81f7163fa29442b63b47d751d64dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfa6f1a3ab6dace68bb989f3d4db6b') in 0.034619 seconds 
+  Import took 0.041753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/dashwind_04.png
+  artifactKey: Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/dashwind_04.png using Guid(11b06cbf4f893364d9735dbb77333dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27a0a2c0799261f557a25099506cf9c') in 0.024600 seconds 
+  Import took 0.035013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/particlel.png
+  artifactKey: Guid(6dec5c53ddfb4414b95f16b2cdde7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/particlel.png using Guid(6dec5c53ddfb4414b95f16b2cdde7280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8803bb8fc2ee936b37dddc67ddc990') in 0.034792 seconds 
+  Import took 0.041981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/explosion_01.png
+  artifactKey: Guid(293276643bb2ddd408d9145f15db23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/explosion_01.png using Guid(293276643bb2ddd408d9145f15db23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd659c20a2b3c91b5ecc65a6a9a6079') in 0.033017 seconds 
+  Import took 0.049170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/potion.png
+  artifactKey: Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/potion.png using Guid(98451d2a04ae2b54a9ec0ff4bc429fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23dd0548cabf46464d78e2fa4f136c') in 0.031159 seconds 
+  Import took 0.040132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/fireball_02.png
+  artifactKey: Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/fireball_02.png using Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a152f775698849d423de54df9b2dc460') in 0.027629 seconds 
+  Import took 0.042268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009354 seconds.
+  path: Assets/Knight Files/Effect & FireBalls/fireball_02.png
+  artifactKey: Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Effect & FireBalls/fireball_02.png using Guid(827412c064980044da53686fae1670db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a152f775698849d423de54df9b2dc460') in 0.045416 seconds 
+  Import took 0.059547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200024 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_01.png
+  artifactKey: Guid(192eccda280e2ec4c99be851889e09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_01.png using Guid(192eccda280e2ec4c99be851889e09ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f1c461d4d5cd050b8348272d8c112d') in 0.113818 seconds 
+  Import took 0.146098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_02.png
+  artifactKey: Guid(276de7332cc176343be57d605b70bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_02.png using Guid(276de7332cc176343be57d605b70bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dcd3a23242c17137418600884ebbf3') in 0.067261 seconds 
+  Import took 0.101749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_03.png
+  artifactKey: Guid(bae9f6e834f890746bd2c9c7544c4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_03.png using Guid(bae9f6e834f890746bd2c9c7544c4b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3157a1f67b58740e75734b57ed503afc') in 0.114037 seconds 
+  Import took 0.190787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_04.png
+  artifactKey: Guid(20eaf3352119b4a498d894619016f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_04.png using Guid(20eaf3352119b4a498d894619016f686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5256a1e9b314a00369d8188146b78f43') in 0.047970 seconds 
+  Import took 0.062914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_02.png
+  artifactKey: Guid(11592a0b5f1d84c42b31729914d8ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_02.png using Guid(11592a0b5f1d84c42b31729914d8ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6593d809798fcbcb7b33791106c207') in 0.039270 seconds 
+  Import took 0.060393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_04.png
+  artifactKey: Guid(18ffd7c532c870c4d8ac5bfa7f53be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_04.png using Guid(18ffd7c532c870c4d8ac5bfa7f53be4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb33ea4949f92ecaf3f30ce52bb7177') in 0.036300 seconds 
+  Import took 0.059647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_06.png
+  artifactKey: Guid(0c673844191288945b65f8f4ea934f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_06.png using Guid(0c673844191288945b65f8f4ea934f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93cd153bb634a4b506d302d081ebd8b') in 0.044942 seconds 
+  Import took 0.069658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dash_03.png
+  artifactKey: Guid(44301e48dd6a11e4d985f5846d6c89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dash_03.png using Guid(44301e48dd6a11e4d985f5846d6c89a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2612d9ef9cd5389cb1b0aef81c66964') in 0.071584 seconds 
+  Import took 0.088277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_03.png
+  artifactKey: Guid(f19194380b336484099aab78a0470803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_03.png using Guid(f19194380b336484099aab78a0470803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be77bc82cd889a2c999888e9b47bcc4f') in 0.099069 seconds 
+  Import took 0.121181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_01.png
+  artifactKey: Guid(b97711f6951c24245aed6bfb9608d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_01.png using Guid(b97711f6951c24245aed6bfb9608d230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7575c37b45efaacf07acfec6a93fde') in 0.039902 seconds 
+  Import took 0.067405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000900 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_05.png
+  artifactKey: Guid(4890fd93cbdf943489b0cc47d6c1ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_05.png using Guid(4890fd93cbdf943489b0cc47d6c1ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30865c1e85e4078a255a73d3f1882a53') in 0.058384 seconds 
+  Import took 0.071410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dizzy_03.png
+  artifactKey: Guid(c349fdd17e40e7643a59d945a37adcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dizzy_03.png using Guid(c349fdd17e40e7643a59d945a37adcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6115bd03ba4b0f9ffcd34dfcd83a8bb') in 0.029549 seconds 
+  Import took 0.038731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_01.png
+  artifactKey: Guid(84ce2f114ad12bd4ebafc77060220324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_01.png using Guid(84ce2f114ad12bd4ebafc77060220324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0209fe72877bd761437084c16c54ee0') in 0.025213 seconds 
+  Import took 0.035755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_block_01.png
+  artifactKey: Guid(5cfc8e09a9a6be647958e6f33e5337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_block_01.png using Guid(5cfc8e09a9a6be647958e6f33e5337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5a0c2df73ebde06eaa2d0399dee4b0') in 0.027249 seconds 
+  Import took 0.039168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dizzy_01.png
+  artifactKey: Guid(5727589126812804db2743e7f3c13bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dizzy_01.png using Guid(5727589126812804db2743e7f3c13bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e900240d8384f6a19e413539ac3889') in 0.025111 seconds 
+  Import took 0.045153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_02.png
+  artifactKey: Guid(97c6ebd3ca4f107448b3b2d9b16e5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_02.png using Guid(97c6ebd3ca4f107448b3b2d9b16e5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e980126b9be92a4247c83f63b21ec8b0') in 0.026069 seconds 
+  Import took 0.040501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001570 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dash_02.png
+  artifactKey: Guid(d01f5abdf66dfaa4f8969d2db66c9e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dash_02.png using Guid(d01f5abdf66dfaa4f8969d2db66c9e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c49e0cedfb96cabacb85d2e06572e5d') in 0.027815 seconds 
+  Import took 0.038952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_02.png
+  artifactKey: Guid(97c6ebd3ca4f107448b3b2d9b16e5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_02.png using Guid(97c6ebd3ca4f107448b3b2d9b16e5d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e980126b9be92a4247c83f63b21ec8b0') in 0.022775 seconds 
+  Import took 0.035046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_07.png
+  artifactKey: Guid(bb85b7b5b670de546b0be388480e0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_07.png using Guid(bb85b7b5b670de546b0be388480e0a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b7bceb1fdd6408c5c496ca30005f1a') in 0.026767 seconds 
+  Import took 0.034761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_crouch_0.png
+  artifactKey: Guid(852ed71025819974eaee06b652ba82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_crouch_0.png using Guid(852ed71025819974eaee06b652ba82bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbd2948362b0148b7c87b778be82c02') in 0.035867 seconds 
+  Import took 0.044696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_03.png
+  artifactKey: Guid(0ffdf19da652afe48a12609e61ed7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_03.png using Guid(0ffdf19da652afe48a12609e61ed7b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae70f146aefe87e725ac51409375137') in 0.040604 seconds 
+  Import took 0.047870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dizzy_02.png
+  artifactKey: Guid(6ed4d5bbba75aa94c908353149559cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dizzy_02.png using Guid(6ed4d5bbba75aa94c908353149559cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c21182d201ab0b565e20fe86127656d') in 0.026517 seconds 
+  Import took 0.034992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_05.png
+  artifactKey: Guid(2d634060b61eb214a949fcd4b88122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_05.png using Guid(2d634060b61eb214a949fcd4b88122d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a277c5b6ee555952302cc6a4fb45454') in 0.030803 seconds 
+  Import took 0.037942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_01.png
+  artifactKey: Guid(d31612dc50d7c944ca419836362a0112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_01.png using Guid(d31612dc50d7c944ca419836362a0112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b2180686620d6c1182160177e09c1b') in 0.025866 seconds 
+  Import took 0.037515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_02.png
+  artifactKey: Guid(e0ee6519b33fbfb408dffd97edee7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_02.png using Guid(e0ee6519b33fbfb408dffd97edee7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11436d429fa2661e633a85dfc6e753f') in 0.031787 seconds 
+  Import took 0.044287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_hurt_02.png
+  artifactKey: Guid(71a762c8ac489fc4da05f2ffdc581140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_hurt_02.png using Guid(71a762c8ac489fc4da05f2ffdc581140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5335dfac00bf6d6c8dbf538f39a8bb') in 0.029558 seconds 
+  Import took 0.035961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003105 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_dash_01.png
+  artifactKey: Guid(cc3764316778c2342933cd8b955a0606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_dash_01.png using Guid(cc3764316778c2342933cd8b955a0606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf73468aa55b7e66ad9e41f17b4cd71b') in 0.030020 seconds 
+  Import took 0.039834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_06.png
+  artifactKey: Guid(98dda13dc8bdd7942a802db594a5fae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_06.png using Guid(98dda13dc8bdd7942a802db594a5fae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb4c3c913525230f08fa0a06d08c1d6') in 0.036478 seconds 
+  Import took 0.045428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_05.png
+  artifactKey: Guid(8143c843fd2934a4880584640fa50c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_05.png using Guid(8143c843fd2934a4880584640fa50c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e394d10f3adfa145e4c78fdf9c2ff7') in 0.029204 seconds 
+  Import took 0.040537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_hurt_01.png
+  artifactKey: Guid(97b66dffb07ccfe48a6fe981c87cf40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_hurt_01.png using Guid(97b66dffb07ccfe48a6fe981c87cf40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e2ba991526ac78ea190d249673bd08') in 0.029618 seconds 
+  Import took 0.039845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_cast_04.png
+  artifactKey: Guid(75fdd5fab73368241af6833a5b8a660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_cast_04.png using Guid(75fdd5fab73368241af6833a5b8a660f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7749e53943750dde26e877d3cc81a4') in 0.032165 seconds 
+  Import took 0.048032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_attack_04.png
+  artifactKey: Guid(a1b4b1f3ee0e4664aada556dbd4c246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_attack_04.png using Guid(a1b4b1f3ee0e4664aada556dbd4c246d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f4d1d40d1fe4a7ce97f09342bea3e6') in 0.038550 seconds 
+  Import took 0.050758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_03.png
+  artifactKey: Guid(efa1e239a79810d49ac4322b079f27b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_03.png using Guid(efa1e239a79810d49ac4322b079f27b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50799a1d79e51d93fbb59770d389ad0') in 0.032710 seconds 
+  Import took 0.053305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_08.png
+  artifactKey: Guid(68b0159974b8f1c4fabb133d28ac2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_08.png using Guid(68b0159974b8f1c4fabb133d28ac2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189de30c318538df5424ffa7158d5346') in 0.031299 seconds 
+  Import took 0.041677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012995 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_die_08.png
+  artifactKey: Guid(68b0159974b8f1c4fabb133d28ac2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_die_08.png using Guid(68b0159974b8f1c4fabb133d28ac2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189de30c318538df5424ffa7158d5346') in 0.053848 seconds 
+  Import took 0.077584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.485820 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_02.png
+  artifactKey: Guid(e70ab950968e2ef439f986ec395141c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_02.png using Guid(e70ab950968e2ef439f986ec395141c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd94496ffef6f87d8434943eccca699a') in 0.017171 seconds 
+  Import took 0.024829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jump_02.png
+  artifactKey: Guid(355f117cc929dbb43875dd51720e2e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jump_02.png using Guid(355f117cc929dbb43875dd51720e2e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e32eab871690b046265da35dabc50') in 0.024468 seconds 
+  Import took 0.033534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_01.png
+  artifactKey: Guid(0a4d423af81ef4f409f288a957a6f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_01.png using Guid(0a4d423af81ef4f409f288a957a6f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29ccd8ec7200768097918682c50b562') in 0.040699 seconds 
+  Import took 0.047432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_06.png
+  artifactKey: Guid(d0fc8c27bd2d9d44e88e8a240ad8f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_06.png using Guid(d0fc8c27bd2d9d44e88e8a240ad8f68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24eb7d75ef9c7ca522ab82ca1280a425') in 0.032283 seconds 
+  Import took 0.051242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_03.png
+  artifactKey: Guid(754f43f8fc4997f42b16428846136321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_03.png using Guid(754f43f8fc4997f42b16428846136321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b85d704b7303cd41910045e5ff02285') in 0.025336 seconds 
+  Import took 0.036480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_05.png
+  artifactKey: Guid(4a643494bdea168479e8de8698775b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_05.png using Guid(4a643494bdea168479e8de8698775b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6d304eb45f70fcce2f75fd5521e9ee') in 0.029695 seconds 
+  Import took 0.042817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_03.png
+  artifactKey: Guid(754f43f8fc4997f42b16428846136321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_03.png using Guid(754f43f8fc4997f42b16428846136321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b85d704b7303cd41910045e5ff02285') in 0.042527 seconds 
+  Import took 0.052978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jump_01.png
+  artifactKey: Guid(7aa182603b724964d971bbfdfa1d309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jump_01.png using Guid(7aa182603b724964d971bbfdfa1d309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d604469838d18706cab06cc5eac0bd7') in 0.028047 seconds 
+  Import took 0.040936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_04.png
+  artifactKey: Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_04.png using Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a29b473ea92731d7c75b087a0fc5b73') in 0.034967 seconds 
+  Import took 0.041424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003713 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_idle_04.png
+  artifactKey: Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_idle_04.png using Guid(7425003c38c00d144af86a40ba87c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a29b473ea92731d7c75b087a0fc5b73') in 0.022058 seconds 
+  Import took 0.033241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.947336 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_02.png
+  artifactKey: Guid(59654bf7ee90c6c488dc992e9dff77f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_02.png using Guid(59654bf7ee90c6c488dc992e9dff77f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e3800e34fa653e24c9d71581a63d40') in 0.016276 seconds 
+  Import took 0.023959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_04.png
+  artifactKey: Guid(7501c2124347b9a45b253375ee5f55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_04.png using Guid(7501c2124347b9a45b253375ee5f55f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20325335829e3197fd945baa36b707fe') in 0.020638 seconds 
+  Import took 0.029255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_03.png
+  artifactKey: Guid(b71c94828f125d947a93a6b6746586f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_03.png using Guid(b71c94828f125d947a93a6b6746586f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c16fa4d29fe6669950e02cfb562608') in 0.021924 seconds 
+  Import took 0.033175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_strike_02.png
+  artifactKey: Guid(921dcf3f9d644d449a7f5bfb01f2dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_strike_02.png using Guid(921dcf3f9d644d449a7f5bfb01f2dcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a158e7cc14dcde017f3cdef87cbd4f0') in 0.037662 seconds 
+  Import took 0.050252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_06.png
+  artifactKey: Guid(527707203b619af4180340ab399245bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_06.png using Guid(527707203b619af4180340ab399245bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aadc814ebf52d1a481b3074cc6aaf49') in 0.052419 seconds 
+  Import took 0.062879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png
+  artifactKey: Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png using Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a436619842e3cc3abd1ab6f8c11c8') in 0.051758 seconds 
+  Import took 0.067641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_strike_01.png
+  artifactKey: Guid(e4306f8a4c31e3b43a266ff8b3ebc749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_strike_01.png using Guid(e4306f8a4c31e3b43a266ff8b3ebc749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8007c5db24d1ad4f8547969a6bb2f1') in 0.054598 seconds 
+  Import took 0.068941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png
+  artifactKey: Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_jumpAttack_05.png using Guid(287f6e82c01296746998b61fb7e842da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a436619842e3cc3abd1ab6f8c11c8') in 0.110202 seconds 
+  Import took 0.126814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_02.png
+  artifactKey: Guid(c9c8166c52da6634eb2eaee5eb18d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_02.png using Guid(c9c8166c52da6634eb2eaee5eb18d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79724254df10a6f2f64771494abb8e32') in 0.037572 seconds 
+  Import took 0.055799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_05.png
+  artifactKey: Guid(950268a606733494f8e4b356b0100a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_05.png using Guid(950268a606733494f8e4b356b0100a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd3f76dbd285637fbffc04fca547a3c') in 0.074320 seconds 
+  Import took 0.085261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_win_01.png
+  artifactKey: Guid(9d7341a607e490544941ffda3017599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_win_01.png using Guid(9d7341a607e490544941ffda3017599d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152caf9930e881230f2c5bab5ad85f4b') in 0.045965 seconds 
+  Import took 0.057420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_04.png
+  artifactKey: Guid(5f35e0dbf73e2bd4bb8189fcd03962b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_04.png using Guid(5f35e0dbf73e2bd4bb8189fcd03962b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a948874faa3187e24df51823a2fc59d') in 0.038999 seconds 
+  Import took 0.062315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_win_02.png
+  artifactKey: Guid(f6117829ba948194c8a5a22cc9d3dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_win_02.png using Guid(f6117829ba948194c8a5a22cc9d3dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034b526405853fd9c1f57ced27e7bf21') in 0.066123 seconds 
+  Import took 0.091420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_06.png
+  artifactKey: Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_06.png using Guid(969fce9da2f69834182f5618b7ec2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b94e2570901fe88f395c2545020ebe4') in 0.058222 seconds 
+  Import took 0.074163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005556 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_03.png
+  artifactKey: Guid(bde3991f219560149aecb109a8aea6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_03.png using Guid(bde3991f219560149aecb109a8aea6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f02332a7263f0716e5ebcc1cdaf74be') in 0.040141 seconds 
+  Import took 0.062696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_strike_03.png
+  artifactKey: Guid(430ad9be76f3bc944b3cf1698ac12cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_strike_03.png using Guid(430ad9be76f3bc944b3cf1698ac12cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3fb8450494708560294be49063acdf') in 0.040062 seconds 
+  Import took 0.056359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_01.png
+  artifactKey: Guid(4a587e1c913636f4c812f857e5aa6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_01.png using Guid(4a587e1c913636f4c812f857e5aa6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66526925acce56e28364ad4c947ff36e') in 0.040992 seconds 
+  Import took 0.056371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003825 seconds.
+  path: Assets/Knight Files/Knight PNG/Knight_walk_01.png
+  artifactKey: Guid(4a587e1c913636f4c812f857e5aa6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knight Files/Knight PNG/Knight_walk_01.png using Guid(4a587e1c913636f4c812f857e5aa6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66526925acce56e28364ad4c947ff36e') in 0.024306 seconds 
+  Import took 0.038177 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
